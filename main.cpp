@@ -15,6 +15,7 @@ bool less_than(vector<int>& need, vector<int>& work) {
     }
     return true;
 }
+
 Answer is_in_safe_state(vector<int> work, vector<vector<int>>& allocation, vector<vector<int>>& need) {
     Answer answer;
     int n = allocation.size();
@@ -141,6 +142,5 @@ int main() {
         else
             cout<<"Incorrect Input!\n";
     }
-    system("pause");
     return 0;
 }
